@@ -7,4 +7,8 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return
+    list1 = list1[::-1]
+    return list1[::n]
+
+
+print(main(['x', 1, 'y', 2, 'z', 3], 2))
